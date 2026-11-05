@@ -1,0 +1,13 @@
+{
+  "name": "4K DE-EN",
+  "version": "1.0.0",
+  "description": "Eigenes 4K-Profil fuer Radarr und Sonarr: German DL bevorzugt, sonst Englisch; DV/HDR und Atmos bevorzugt",
+  "arr_types": ["radarr", "sonarr"],
+  "dependencies": {
+    "https://github.com/Dictionarry-Hub/schema": "1.1.0"
+  },
+  "authors": [{ "name": "Wri84" }],
+  "license": "MIT",
+  "repository": "https://github.com/Wri84/profilarr",
+  "profilarr": { "minimum_version": "2.0.0" }
+}
