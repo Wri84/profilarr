@@ -5,9 +5,7 @@ Eigenes Qualitätsprofil für Radarr und Sonarr (Profilarr 2.x, PCD-Format).
 ## Regeln
 
 **Qualität** (oben = bevorzugt, Upgrades bis Remux-2160p):
-Remux-2160p > Bluray-2160p > WEBDL-2160p > WEBRip-2160p > [1080p: Remux / Bluray / WEBDL / WEBRip gleichwertig]
-
-Innerhalb von 1080p gibt es keine Upgrades; alle Boni (inkl. Deutsch) zählen nur für 2160p.
+Remux-2160p > Bluray-2160p > WEBDL-2160p — **Minimum 4K WEB-DL**, kein WEBRip, kein 1080p.
 
 > **Upgrades sind derzeit pausiert** (`ops/3`, Speicher fehlt). Es werden nur Titel ohne Datei geladen.
 
@@ -19,12 +17,12 @@ Innerhalb von 1080p gibt es keine Upgrades; alle Boni (inkl. Deutsch) zählen nu
 | Nur Deutsch, Deutsch ist Originalsprache | ok |
 | Nur Deutsch (Synchro ohne Original) | gesperrt |
 | Weder Deutsch noch Englisch | gesperrt |
-| Deutsche Spur Line-/Mic-Dubbed | kein Deutsch-Bonus (−3000) |
+| Deutsche Spur Line-/Mic-Dubbed (LD/MD) | gesperrt |
 
 **Innerhalb einer 2160p-Qualitätsstufe:** Dolby Vision mit Fallback +1500, HDR10+ +1000, HDR +800
 (UHD-BluRay ohne HDR-Tag +800), Atmos +500, Lossless-Audio +200.
 
-**Gesperrt:** DV ohne HDR-Fallback, CAM/Screener, 3D, Upscales, AV1, Extras, TRaSH-LQ-Gruppen.
+**Gesperrt:** DV ohne HDR-Fallback, CAM/TS/TC/Screener, LD/MD, Stereo/Mono (wenn im Titel ausdrücklich genannt), 3D, Upscales, AV1, Extras, TRaSH-LQ-Gruppen.
 
 Mindestscore 0, Upgrade bis Score 5000, Mindestschritt 500.
 
