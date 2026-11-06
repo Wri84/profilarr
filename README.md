@@ -34,3 +34,9 @@ bestehende Ops nicht mehr ändern, sobald Profilarr sie angewendet hat.
 Gleiche Custom Formats und Scores wie oben, aber mit 1080p-Fallback:
 Remux-2160p > Bluray-2160p > WEBDL-2160p > [1080p: Remux / Bluray / WEBDL gleichwertig] — kein WEBRip.
 German DL wird auch bei 1080p bevorzugt; HDR/DV/Audio-Boni zählen nur bei 4K. Upgrades derzeit pausiert.
+
+## Medienverwaltung & Delay-Profil
+Profilarr verlangt für den Profil-Sync eine Auswahl unter *Media Management* und *Delay Profile*.
+`ops/6` enthält dafür **„Aktuell (Radarr)“** und **„Aktuell (Sonarr)“**: eine 1:1-Kopie der Einstellungen,
+die am 2026-11-06 in Radarr/Sonarr aktiv waren (Benennung, Propers/Repacks, MediaInfo, Qualitätsgrößen, Delay).
+Ein Sync damit ändert also nichts.
