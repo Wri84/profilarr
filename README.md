@@ -29,3 +29,8 @@ Mindestscore 0, Upgrade bis Score 5000, Mindestschritt 500.
 ## Pflege
 `ops/` wird mit `tools/gen.py` erzeugt. Neue Änderungen als neue Op-Datei (`ops/2.<beschreibung>.sql`) anlegen,
 bestehende Ops nicht mehr ändern, sobald Profilarr sie angewendet hat.
+
+## Serienprofil „4K DE-EN TV“
+Gleiche Custom Formats und Scores wie oben, aber mit 1080p-Fallback:
+Remux-2160p > Bluray-2160p > WEBDL-2160p > [1080p: Remux / Bluray / WEBDL gleichwertig] — kein WEBRip.
+German DL wird auch bei 1080p bevorzugt; HDR/DV/Audio-Boni zählen nur bei 4K. Upgrades derzeit pausiert.
