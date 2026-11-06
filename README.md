@@ -7,12 +7,14 @@ Eigenes Qualitätsprofil für Radarr und Sonarr (Profilarr 2.x, PCD-Format).
 **Qualität** (oben = bevorzugt, Upgrades bis Remux-2160p):
 Remux-2160p > Bluray-2160p > WEBDL-2160p > WEBRip-2160p > [1080p: Remux / Bluray / WEBDL / WEBRip gleichwertig]
 
-Innerhalb von 1080p gibt es kein Qualitäts-Upgrade; 1080p → 1080p nur, wenn die deutsche Spur fehlt.
+Innerhalb von 1080p gibt es keine Upgrades; alle Boni (inkl. Deutsch) zählen nur für 2160p.
+
+> **Upgrades sind derzeit pausiert** (`ops/3`, Speicher fehlt). Es werden nur Titel ohne Datei geladen.
 
 **Sprache**
 | Tonspuren | Ergebnis |
 |---|---|
-| Deutsch + Englisch / Originalsprache | bevorzugt (+3000) |
+| Deutsch + Englisch / Originalsprache | bevorzugt (+3000, nur 2160p) |
 | Nur Englisch | ok |
 | Nur Deutsch, Deutsch ist Originalsprache | ok |
 | Nur Deutsch (Synchro ohne Original) | gesperrt |
