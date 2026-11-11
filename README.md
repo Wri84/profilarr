@@ -33,7 +33,8 @@ bestehende Ops nicht mehr ändern, sobald Profilarr sie angewendet hat.
 ## Serienprofil „4K DE-EN TV“
 Gleiche Custom Formats und Scores wie oben, aber mit 1080p-Fallback:
 Remux-2160p > Bluray-2160p > WEBDL-2160p > [1080p: Remux / Bluray / WEBDL gleichwertig] — kein WEBRip.
-German DL wird auch bei 1080p bevorzugt; HDR/DV/Audio-Boni zählen nur bei 4K. Upgrades derzeit pausiert.
+German DL wird auch bei 1080p bevorzugt; HDR/DV/Audio-Boni zählen nur bei 4K.
+**Upgrades aktiv** (ops/9): 1080p → 4K sowie Score-Upgrades (z. B. Ersatz durch eine Fassung mit deutscher Spur).
 
 ## Medienverwaltung & Delay-Profil
 Profilarr verlangt für den Profil-Sync eine Auswahl unter *Media Management* und *Delay Profile*.
